@@ -1,0 +1,96 @@
+
+M=N=K= 256 :
+Pass.
+Average elapsed time: 0.000135 second, performance: 248.138246 GFLOPS.
+
+M=N=K= 512 :
+Pass.
+Average elapsed time: 0.000213 second, performance: 1260.633239 GFLOPS.
+
+M=N=K= 768 :
+Pass.
+Average elapsed time: 0.000292 second, performance: 3097.499068 GFLOPS.
+
+M=N=K= 1024 :
+Pass.
+Average elapsed time: 0.000578 second, performance: 3712.277324 GFLOPS.
+
+M=N=K= 1280 :
+Pass.
+Average elapsed time: 0.000688 second, performance: 6095.984252 GFLOPS.
+
+M=N=K= 1536 :
+Pass.
+Average elapsed time: 0.001183 second, performance: 6125.695733 GFLOPS.
+
+M=N=K= 1792 :
+Pass.
+Average elapsed time: 0.001696 second, performance: 6787.800117 GFLOPS.
+
+M=N=K= 2048 :
+Pass.
+Average elapsed time: 0.002404 second, performance: 7146.180220 GFLOPS.
+
+M=N=K= 2304 :
+Pass.
+Average elapsed time: 0.002996 second, performance: 8165.322575 GFLOPS.
+
+M=N=K= 2560 :
+Pass.
+Average elapsed time: 0.003781 second, performance: 8875.159076 GFLOPS.
+
+M=N=K= 2816 :
+Pass.
+Average elapsed time: 0.005181 second, performance: 8619.756268 GFLOPS.
+
+M=N=K= 3072 :
+Pass.
+Average elapsed time: 0.006316 second, performance: 9179.538043 GFLOPS.
+
+M=N=K= 3328 :
+Pass.
+Average elapsed time: 0.007968 second, performance: 9251.823014 GFLOPS.
+
+M=N=K= 3584 :
+Pass.
+Average elapsed time: 0.009876 second, performance: 9322.907419 GFLOPS.
+
+M=N=K= 3840 :
+Pass.
+Average elapsed time: 0.011248 second, performance: 10067.745232 GFLOPS.
+
+M=N=K= 4096 :
+Pass.
+Average elapsed time: 0.014300 second, performance: 9610.806471 GFLOPS.
+
+M=N=K= 4352 :
+Pass.
+Average elapsed time: 0.016784 second, performance: 9821.928526 GFLOPS.
+
+M=N=K= 4608 :
+Pass.
+Average elapsed time: 0.019482 second, performance: 10044.513105 GFLOPS.
+
+M=N=K= 4864 :
+Pass.
+Average elapsed time: 0.023238 second, performance: 9904.121493 GFLOPS.
+
+M=N=K= 5120 :
+Pass.
+Average elapsed time: 0.026527 second, performance: 10119.325810 GFLOPS.
+
+M=N=K= 5376 :
+Pass.
+Average elapsed time: 0.030683 second, performance: 10127.749244 GFLOPS.
+
+M=N=K= 5632 :
+Pass.
+Average elapsed time: 0.035274 second, performance: 10128.941473 GFLOPS.
+
+M=N=K= 5888 :
+Pass.
+Average elapsed time: 0.040189 second, performance: 10158.326221 GFLOPS.
+
+M=N=K= 6144 :
+Pass.
+Average elapsed time: 0.045276 second, performance: 10245.061138 GFLOPS.
