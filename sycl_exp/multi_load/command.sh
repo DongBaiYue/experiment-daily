@@ -1,0 +1,3 @@
+clang++ -std=c++17 -O3 -fsycl -fsycl-targets=amdgcn-amd-amdhsa -Xsycl-target-backend --offload-arch=gfx906 -fPIC -shared sycl_libA.cpp -o sycl_1.so
+clang++ -std=c++17 -O3 -fsycl -fsycl-targets=amdgcn-amd-amdhsa -Xsycl-target-backend --offload-arch=gfx906 -fPIC -shared sycl_libB.cpp -o sycl_2.so
+clang++ -std=c++17 -O3 -fsycl -fsycl-targets=amdgcn-amd-amdhsa -Xsycl-target-backend --offload-arch=gfx906 main.cpp -ldl
