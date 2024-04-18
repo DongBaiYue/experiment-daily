@@ -1,0 +1,1824 @@
+
+  {
+    "displayTimeUnit": "ms",
+    "schemaVersion": "1.0.2",
+    "span_indx": "0",
+    "deviceProperties": [
+    
+    {
+      "id": 0, "name": "Z100L", "totalGlobalMem": 34342961152,
+      "computeMajor": 9, "computeMinor": 0,
+      "smCount": 60
+    },
+  
+    {
+      "id": 1, "name": "Z100L", "totalGlobalMem": 34342961152,
+      "computeMajor": 9, "computeMinor": 0,
+      "smCount": 60
+    },
+  
+    {
+      "id": 2, "name": "Z100L", "totalGlobalMem": 34342961152,
+      "computeMajor": 9, "computeMinor": 0,
+      "smCount": 60
+    },
+  
+    {
+      "id": 3, "name": "Z100L", "totalGlobalMem": 34342961152,
+      "computeMajor": 9, "computeMinor": 0,
+      "smCount": 60
+    },
+  
+    {
+      "id": 4, "name": "Z100L", "totalGlobalMem": 34342961152,
+      "computeMajor": 9, "computeMinor": 0,
+      "smCount": 60
+    },
+  
+    {
+      "id": 5, "name": "Z100L", "totalGlobalMem": 34342961152,
+      "computeMajor": 9, "computeMinor": 0,
+      "smCount": 60
+    },
+  
+    {
+      "id": 6, "name": "Z100L", "totalGlobalMem": 34342961152,
+      "computeMajor": 9, "computeMinor": 0,
+      "smCount": 60
+    },
+  
+      {
+        "id": 7, "name": "Z100L", "totalGlobalMem": 34342961152,
+        "computeMajor": 9, "computeMinor": 0,
+        "smCount": 60
+      }],
+    
+    "traceEvents": [
+  
+  {
+    "name": "Runtime API 126[3.950 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191869, "dur": 3.950,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 47,
+      "start_time": "4205.967 us",
+      "end_time": "4209.917 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 47, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191871,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "ProfileStep#3[1.048 ms]", "pid": 58374, "tid": "58374(Python)",
+    "ts": 1713426827187663, "dur": 1048.500,
+    "ph": "X", "cat": "ProfileStep",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "0.000 us",
+      "end_time": "1048.500 us"
+    }
+  },
+  
+  {
+    "name": "ProfileStep#4[1.024 ms]", "pid": 58374, "tid": "58374(Python)",
+    "ts": 1713426827188730, "dur": 1023.820,
+    "ph": "X", "cat": "ProfileStep",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1066.680 us",
+      "end_time": "2090.500 us"
+    }
+  },
+  
+  {
+    "name": "ProfileStep#5[1.034 ms]", "pid": 58374, "tid": "58374(Python)",
+    "ts": 1713426827189771, "dur": 1033.991,
+    "ph": "X", "cat": "ProfileStep",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2108.350 us",
+      "end_time": "3142.341 us"
+    }
+  },
+  
+  {
+    "name": "ProfileStep#6[1.020 ms]", "pid": 58374, "tid": "58374(Python)",
+    "ts": 1713426827190823, "dur": 1019.920,
+    "ph": "X", "cat": "ProfileStep",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "3159.851 us",
+      "end_time": "4179.771 us"
+    }
+  },
+  
+  {
+    "name": "resent18 eval[1.004 ms]", "pid": 58374, "tid": "58374(Python)",
+    "ts": 1713426827187692, "dur": 1004.410,
+    "ph": "X", "cat": "PythonUserDefined",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "29.340 us",
+      "end_time": "1033.750 us"
+    }
+  },
+  
+  {
+    "name": "cudaStreamSynchronize_v3020[32.820 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188322, "dur": 32.820,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 18,
+      "start_time": "658.666 us",
+      "end_time": "691.486 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 18, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188338,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "cudaMemcpy_v3020[48.090 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188376, "dur": 48.090,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 19,
+      "start_time": "712.806 us",
+      "end_time": "760.896 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 19, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188400,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "MEMCPY_DtoH[3.840 us]", "pid": 8, "tid": 1,
+    "ts": 1713426827188416, "dur": 3.840,
+    "ph": "X", "cat": "Memcpy",
+    "cname": "cq_build_failed",
+    "args": {
+      "start_time": "753.378 us",
+      "end_time": "757.218 us",
+      "stream": 1, "correlation id": 19,
+      "bytes": 0, "memory bandwidth (GB/s)": 0.000
+    }
+  },
+  
+  {
+    "name": "launch", "id": 19, "pid": 8, "tid": 1,
+    "ts": 1713426827188418,
+    "ph": "f", "cat": "async", "bp": "e"
+  },
+  
+  {
+    "name": "resent18 eval[996.330 us]", "pid": 58374, "tid": "58374(Python)",
+    "ts": 1713426827188743, "dur": 996.330,
+    "ph": "X", "cat": "PythonUserDefined",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1079.950 us",
+      "end_time": "2076.280 us"
+    }
+  },
+  
+  {
+    "name": "cudaStreamSynchronize_v3020[33.640 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189365, "dur": 33.640,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 27,
+      "start_time": "1701.886 us",
+      "end_time": "1735.526 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 27, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189382,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "cudaMemcpy_v3020[48.810 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189421, "dur": 48.810,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 28,
+      "start_time": "1757.516 us",
+      "end_time": "1806.326 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 28, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189445,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "MEMCPY_DtoH[3.840 us]", "pid": 8, "tid": 1,
+    "ts": 1713426827189462, "dur": 3.840,
+    "ph": "X", "cat": "Memcpy",
+    "cname": "cq_build_failed",
+    "args": {
+      "start_time": "1798.658 us",
+      "end_time": "1802.498 us",
+      "stream": 1, "correlation id": 28,
+      "bytes": 0, "memory bandwidth (GB/s)": 0.000
+    }
+  },
+  
+  {
+    "name": "launch", "id": 28, "pid": 8, "tid": 1,
+    "ts": 1713426827189464,
+    "ph": "f", "cat": "async", "bp": "e"
+  },
+  
+  {
+    "name": "resent18 eval[1.006 ms]", "pid": 58374, "tid": "58374(Python)",
+    "ts": 1713426827189785, "dur": 1006.371,
+    "ph": "X", "cat": "PythonUserDefined",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2121.670 us",
+      "end_time": "3128.041 us"
+    }
+  },
+  
+  {
+    "name": "cudaStreamSynchronize_v3020[32.070 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190419, "dur": 32.070,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 36,
+      "start_time": "2755.747 us",
+      "end_time": "2787.817 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 36, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190435,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "cudaMemcpy_v3020[48.720 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190473, "dur": 48.720,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 37,
+      "start_time": "2809.437 us",
+      "end_time": "2858.157 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 37, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190497,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "MEMCPY_DtoH[3.840 us]", "pid": 8, "tid": 1,
+    "ts": 1713426827190514, "dur": 3.840,
+    "ph": "X", "cat": "Memcpy",
+    "cname": "cq_build_failed",
+    "args": {
+      "start_time": "2850.818 us",
+      "end_time": "2854.658 us",
+      "stream": 1, "correlation id": 37,
+      "bytes": 0, "memory bandwidth (GB/s)": 0.000
+    }
+  },
+  
+  {
+    "name": "launch", "id": 37, "pid": 8, "tid": 1,
+    "ts": 1713426827190516,
+    "ph": "f", "cat": "async", "bp": "e"
+  },
+  
+  {
+    "name": "resent18 eval[992.740 us]", "pid": 58374, "tid": "58374(Python)",
+    "ts": 1713426827190836, "dur": 992.740,
+    "ph": "X", "cat": "PythonUserDefined",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "3173.171 us",
+      "end_time": "4165.911 us"
+    }
+  },
+  
+  {
+    "name": "cudaStreamSynchronize_v3020[32.530 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191460, "dur": 32.530,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 45,
+      "start_time": "3797.307 us",
+      "end_time": "3829.837 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 45, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191477,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "cudaMemcpy_v3020[48.870 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191514, "dur": 48.870,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 46,
+      "start_time": "3851.377 us",
+      "end_time": "3900.247 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 46, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191539,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "MEMCPY_DtoH[3.840 us]", "pid": 8, "tid": 1,
+    "ts": 1713426827191556, "dur": 3.840,
+    "ph": "X", "cat": "Memcpy",
+    "cname": "cq_build_failed",
+    "args": {
+      "start_time": "3892.578 us",
+      "end_time": "3896.418 us",
+      "stream": 1, "correlation id": 46,
+      "bytes": 0, "memory bandwidth (GB/s)": 0.000
+    }
+  },
+  
+  {
+    "name": "launch", "id": 46, "pid": 8, "tid": 1,
+    "ts": 1713426827191558,
+    "ph": "f", "cat": "async", "bp": "e"
+  },
+  
+  {
+    "name": "Net[554.920 us]", "pid": 58374, "tid": "58374(Python)",
+    "ts": 1713426827187705, "dur": 554.920,
+    "ph": "X", "cat": "Forward",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "41.930 us",
+      "end_time": "596.850 us"
+    }
+  },
+  
+  {
+    "name": "Net[530.010 us]", "pid": 58374, "tid": "58374(Python)",
+    "ts": 1713426827188754, "dur": 530.010,
+    "ph": "X", "cat": "Forward",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1091.210 us",
+      "end_time": "1621.220 us"
+    }
+  },
+  
+  {
+    "name": "Net[560.901 us]", "pid": 58374, "tid": "58374(Python)",
+    "ts": 1713426827189796, "dur": 560.901,
+    "ph": "X", "cat": "Forward",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2132.560 us",
+      "end_time": "2693.461 us"
+    }
+  },
+  
+  {
+    "name": "Net[533.900 us]", "pid": 58374, "tid": "58374(Python)",
+    "ts": 1713426827190848, "dur": 533.900,
+    "ph": "X", "cat": "Forward",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "3184.671 us",
+      "end_time": "3718.571 us"
+    }
+  },
+  
+  {
+    "name": "get_interpretercore_cache[4.710 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188042, "dur": 4.710,
+    "ph": "X", "cat": "UserDefined",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "379.370 us",
+      "end_time": "384.080 us"
+    }
+  },
+  
+  {
+    "name": "interpreter_core_run[171.980 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188048, "dur": 171.980,
+    "ph": "X", "cat": "UserDefined",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "384.450 us",
+      "end_time": "556.430 us"
+    }
+  },
+  
+  {
+    "name": "cudaSetDevice_v3020[2.190 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188056, "dur": 2.190,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 11,
+      "start_time": "392.456 us",
+      "end_time": "394.646 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 11, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188057,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "fetch_and_gc[3.120 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188220, "dur": 3.120,
+    "ph": "X", "cat": "UserDefined",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "556.640 us",
+      "end_time": "559.760 us"
+    }
+  },
+  
+  {
+    "name": "get_interpretercore_cache[4.190 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189085, "dur": 4.190,
+    "ph": "X", "cat": "UserDefined",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1422.350 us",
+      "end_time": "1426.540 us"
+    }
+  },
+  
+  {
+    "name": "interpreter_core_run[153.040 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189090, "dur": 153.040,
+    "ph": "X", "cat": "UserDefined",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1426.980 us",
+      "end_time": "1580.020 us"
+    }
+  },
+  
+  {
+    "name": "cudaSetDevice_v3020[1.890 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189099, "dur": 1.890,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 20,
+      "start_time": "1435.456 us",
+      "end_time": "1437.346 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 20, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189099,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "fetch_and_gc[3.610 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189243, "dur": 3.610,
+    "ph": "X", "cat": "UserDefined",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1580.240 us",
+      "end_time": "1583.850 us"
+    }
+  },
+  
+  {
+    "name": "get_interpretercore_cache[4.420 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190149, "dur": 4.420,
+    "ph": "X", "cat": "UserDefined",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2485.591 us",
+      "end_time": "2490.011 us"
+    }
+  },
+  
+  {
+    "name": "interpreter_core_run[159.390 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190153, "dur": 159.390,
+    "ph": "X", "cat": "UserDefined",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2490.411 us",
+      "end_time": "2649.801 us"
+    }
+  },
+  
+  {
+    "name": "cudaSetDevice_v3020[2.030 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190162, "dur": 2.030,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 29,
+      "start_time": "2498.617 us",
+      "end_time": "2500.647 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 29, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190163,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "fetch_and_gc[3.260 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190313, "dur": 3.260,
+    "ph": "X", "cat": "UserDefined",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2649.991 us",
+      "end_time": "2653.251 us"
+    }
+  },
+  
+  {
+    "name": "get_interpretercore_cache[4.480 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191182, "dur": 4.480,
+    "ph": "X", "cat": "UserDefined",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "3519.091 us",
+      "end_time": "3523.571 us"
+    }
+  },
+  
+  {
+    "name": "interpreter_core_run[153.710 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191187, "dur": 153.710,
+    "ph": "X", "cat": "UserDefined",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "3523.921 us",
+      "end_time": "3677.631 us"
+    }
+  },
+  
+  {
+    "name": "cudaSetDevice_v3020[1.910 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191195, "dur": 1.910,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 38,
+      "start_time": "3531.937 us",
+      "end_time": "3533.847 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 38, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191196,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "fetch_and_gc[3.630 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191341, "dur": 3.630,
+    "ph": "X", "cat": "UserDefined",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "3677.821 us",
+      "end_time": "3681.451 us"
+    }
+  },
+  
+  {
+    "name": "cinn_launch[159.210 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188059, "dur": 159.210,
+    "ph": "X", "cat": "Operator",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "395.460 us",
+      "end_time": "554.670 us",
+      "input_shapes": {},
+      "input_dtypes": {},
+      "callstack": ""
+    }
+  },
+  
+  {
+    "name": "cudaSetDevice_v3020[1.020 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188063, "dur": 1.020,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 12,
+      "start_time": "399.706 us",
+      "end_time": "400.726 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 12, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188063,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "cinn_launch[140.580 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189101, "dur": 140.580,
+    "ph": "X", "cat": "Operator",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1437.600 us",
+      "end_time": "1578.180 us",
+      "input_shapes": {},
+      "input_dtypes": {},
+      "callstack": ""
+    }
+  },
+  
+  {
+    "name": "cudaSetDevice_v3020[0.910 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189105, "dur": 0.910,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 21,
+      "start_time": "1441.556 us",
+      "end_time": "1442.466 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 21, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189105,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "cinn_launch[147.140 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190164, "dur": 147.140,
+    "ph": "X", "cat": "Operator",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2500.931 us",
+      "end_time": "2648.071 us",
+      "input_shapes": {},
+      "input_dtypes": {},
+      "callstack": ""
+    }
+  },
+  
+  {
+    "name": "cinn_launch[141.570 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191197, "dur": 141.570,
+    "ph": "X", "cat": "Operator",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "3534.241 us",
+      "end_time": "3675.811 us",
+      "input_shapes": {},
+      "input_dtypes": {},
+      "callstack": ""
+    }
+  },
+  
+  {
+    "name": "infer_shape[2.080 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188063, "dur": 2.080,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "399.790 us",
+      "end_time": "401.870 us"
+    }
+  },
+  
+  {
+    "name": "compute[151.550 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188065, "dur": 151.550,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "402.070 us",
+      "end_time": "553.620 us"
+    }
+  },
+  
+  {
+    "name": "cudaSetDevice_v3020[1.210 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188106, "dur": 1.210,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 13,
+      "start_time": "442.826 us",
+      "end_time": "444.036 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 13, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188106,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "infer_shape[1.780 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189105, "dur": 1.780,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1441.680 us",
+      "end_time": "1443.460 us"
+    }
+  },
+  
+  {
+    "name": "compute[133.520 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189107, "dur": 133.520,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1443.680 us",
+      "end_time": "1577.200 us"
+    }
+  },
+  
+  {
+    "name": "infer_shape[1.770 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190168, "dur": 1.770,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2504.831 us",
+      "end_time": "2506.601 us"
+    }
+  },
+  
+  {
+    "name": "cudaSetDevice_v3020[0.900 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190168, "dur": 0.900,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 30,
+      "start_time": "2504.867 us",
+      "end_time": "2505.767 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 30, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190168,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "compute[140.310 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190170, "dur": 140.310,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2506.801 us",
+      "end_time": "2647.111 us"
+    }
+  },
+  
+  {
+    "name": "infer_shape[2.090 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191201, "dur": 2.090,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "3538.281 us",
+      "end_time": "3540.371 us"
+    }
+  },
+  
+  {
+    "name": "cudaSetDevice_v3020[0.920 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191201, "dur": 0.920,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 39,
+      "start_time": "3538.337 us",
+      "end_time": "3539.257 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 39, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191202,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "compute[134.360 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191204, "dur": 134.360,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "3540.541 us",
+      "end_time": "3674.901 us"
+    }
+  },
+  
+  {
+    "name": "cinn_instruction_run[53.680 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188107, "dur": 53.680,
+    "ph": "X", "cat": "Operator",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "443.530 us",
+      "end_time": "497.210 us",
+      "input_shapes": {},
+      "input_dtypes": {},
+      "callstack": ""
+    }
+  },
+  
+  {
+    "name": "Runtime API 307[11.260 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188148, "dur": 11.260,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 15,
+      "start_time": "485.336 us",
+      "end_time": "496.596 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 15, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188154,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "fn_matmul_1_7_kernel[4.960 us]", "pid": 7, "tid": 1,
+    "ts": 1713426827188180, "dur": 4.960,
+    "ph": "X", "cat": "Kernel",
+    "cname": "cq_build_failed",
+    "args": {
+      "start_time": "516.978 us",
+      "end_time": "521.938 us",
+      "device": 7, "context": 0,
+      "stream": 1, "correlation id": 15,
+      "registers per thread": 0,
+      "shared memory": 0,
+      "blocks per SM": 0.000000,
+      "warps per SM": 0.000000,
+      "grid": [0, 0, 0],
+      "block": [0, 0, 0],
+      "theoretical achieved occupancy %": 0.000
+    }
+  },
+  
+  {
+    "name": "launch", "id": 15, "pid": 7, "tid": 1,
+    "ts": 1713426827188183,
+    "ph": "f", "cat": "async", "bp": "e"
+  },
+  
+  {
+    "name": "cinn_instruction_run[52.030 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188162, "dur": 52.030,
+    "ph": "X", "cat": "Operator",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "498.950 us",
+      "end_time": "550.980 us",
+      "input_shapes": {},
+      "input_dtypes": {},
+      "callstack": ""
+    }
+  },
+  
+  {
+    "name": "Runtime API 307[9.500 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188192, "dur": 9.500,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 17,
+      "start_time": "528.666 us",
+      "end_time": "538.166 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 17, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188196,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "fn_broadcast_to_2_elementwise_add_3_fill_constant_0_elementwise_mul_4_fill_constant_6_elementwise_add_5_max_7_8_kernel[4.160 us]", "pid": 7, "tid": 1,
+    "ts": 1713426827188216, "dur": 4.160,
+    "ph": "X", "cat": "Kernel",
+    "cname": "cq_build_failed",
+    "args": {
+      "start_time": "552.658 us",
+      "end_time": "556.818 us",
+      "device": 7, "context": 0,
+      "stream": 1, "correlation id": 17,
+      "registers per thread": 0,
+      "shared memory": 0,
+      "blocks per SM": 0.000000,
+      "warps per SM": 0.000000,
+      "grid": [0, 0, 0],
+      "block": [0, 0, 0],
+      "theoretical achieved occupancy %": 0.000
+    }
+  },
+  
+  {
+    "name": "launch", "id": 17, "pid": 7, "tid": 1,
+    "ts": 1713426827188218,
+    "ph": "f", "cat": "async", "bp": "e"
+  },
+  
+  {
+    "name": "cinn_instruction_run[50.960 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189135, "dur": 50.960,
+    "ph": "X", "cat": "Operator",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1471.820 us",
+      "end_time": "1522.780 us",
+      "input_shapes": {},
+      "input_dtypes": {},
+      "callstack": ""
+    }
+  },
+  
+  {
+    "name": "cudaSetDevice_v3020[1.040 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189135, "dur": 1.040,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 22,
+      "start_time": "1471.976 us",
+      "end_time": "1473.016 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 22, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189136,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "Runtime API 307[11.190 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189174, "dur": 11.190,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 24,
+      "start_time": "1511.216 us",
+      "end_time": "1522.406 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 24, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189180,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "fn_matmul_1_7_kernel[4.800 us]", "pid": 7, "tid": 1,
+    "ts": 1713426827189202, "dur": 4.800,
+    "ph": "X", "cat": "Kernel",
+    "cname": "cq_build_failed",
+    "args": {
+      "start_time": "1538.898 us",
+      "end_time": "1543.698 us",
+      "device": 7, "context": 0,
+      "stream": 1, "correlation id": 24,
+      "registers per thread": 0,
+      "shared memory": 0,
+      "blocks per SM": 0.000000,
+      "warps per SM": 0.000000,
+      "grid": [0, 0, 0],
+      "block": [0, 0, 0],
+      "theoretical achieved occupancy %": 0.000
+    }
+  },
+  
+  {
+    "name": "launch", "id": 24, "pid": 7, "tid": 1,
+    "ts": 1713426827189204,
+    "ph": "f", "cat": "async", "bp": "e"
+  },
+  
+  {
+    "name": "cinn_instruction_run[50.270 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189187, "dur": 50.270,
+    "ph": "X", "cat": "Operator",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1524.170 us",
+      "end_time": "1574.440 us",
+      "input_shapes": {},
+      "input_dtypes": {},
+      "callstack": ""
+    }
+  },
+  
+  {
+    "name": "cudaSetDevice_v3020[1.070 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189192, "dur": 1.070,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 25,
+      "start_time": "1528.546 us",
+      "end_time": "1529.616 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 25, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189192,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "Runtime API 307[8.260 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189218, "dur": 8.260,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 26,
+      "start_time": "1554.716 us",
+      "end_time": "1562.976 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 26, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189222,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "fn_broadcast_to_2_elementwise_add_3_fill_constant_0_elementwise_mul_4_fill_constant_6_elementwise_add_5_max_7_8_kernel[4.000 us]", "pid": 7, "tid": 1,
+    "ts": 1713426827189241, "dur": 4.000,
+    "ph": "X", "cat": "Kernel",
+    "cname": "cq_build_failed",
+    "args": {
+      "start_time": "1577.778 us",
+      "end_time": "1581.778 us",
+      "device": 7, "context": 0,
+      "stream": 1, "correlation id": 26,
+      "registers per thread": 0,
+      "shared memory": 0,
+      "blocks per SM": 0.000000,
+      "warps per SM": 0.000000,
+      "grid": [0, 0, 0],
+      "block": [0, 0, 0],
+      "theoretical achieved occupancy %": 0.000
+    }
+  },
+  
+  {
+    "name": "launch", "id": 26, "pid": 7, "tid": 1,
+    "ts": 1713426827189243,
+    "ph": "f", "cat": "async", "bp": "e"
+  },
+  
+  {
+    "name": "cinn_instruction_run[53.270 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190201, "dur": 53.270,
+    "ph": "X", "cat": "Operator",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2537.631 us",
+      "end_time": "2590.901 us",
+      "input_shapes": {},
+      "input_dtypes": {},
+      "callstack": ""
+    }
+  },
+  
+  {
+    "name": "cudaSetDevice_v3020[0.930 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190201, "dur": 0.930,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 31,
+      "start_time": "2537.747 us",
+      "end_time": "2538.677 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 31, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190201,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "Runtime API 307[12.270 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190242, "dur": 12.270,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 33,
+      "start_time": "2578.587 us",
+      "end_time": "2590.857 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 33, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190248,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "fn_matmul_1_7_kernel[4.480 us]", "pid": 7, "tid": 1,
+    "ts": 1713426827190272, "dur": 4.480,
+    "ph": "X", "cat": "Kernel",
+    "cname": "cq_build_failed",
+    "args": {
+      "start_time": "2608.818 us",
+      "end_time": "2613.298 us",
+      "device": 7, "context": 0,
+      "stream": 1, "correlation id": 33,
+      "registers per thread": 0,
+      "shared memory": 0,
+      "blocks per SM": 0.000000,
+      "warps per SM": 0.000000,
+      "grid": [0, 0, 0],
+      "block": [0, 0, 0],
+      "theoretical achieved occupancy %": 0.000
+    }
+  },
+  
+  {
+    "name": "launch", "id": 33, "pid": 7, "tid": 1,
+    "ts": 1713426827190274,
+    "ph": "f", "cat": "async", "bp": "e"
+  },
+  
+  {
+    "name": "cinn_instruction_run[52.320 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190255, "dur": 52.320,
+    "ph": "X", "cat": "Operator",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2592.371 us",
+      "end_time": "2644.691 us",
+      "input_shapes": {},
+      "input_dtypes": {},
+      "callstack": ""
+    }
+  },
+  
+  {
+    "name": "Runtime API 307[9.200 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190287, "dur": 9.200,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 35,
+      "start_time": "2624.117 us",
+      "end_time": "2633.317 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 35, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190292,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "fn_broadcast_to_2_elementwise_add_3_fill_constant_0_elementwise_mul_4_fill_constant_6_elementwise_add_5_max_7_8_kernel[4.160 us]", "pid": 7, "tid": 1,
+    "ts": 1713426827190313, "dur": 4.160,
+    "ph": "X", "cat": "Kernel",
+    "cname": "cq_build_failed",
+    "args": {
+      "start_time": "2649.938 us",
+      "end_time": "2654.098 us",
+      "device": 7, "context": 0,
+      "stream": 1, "correlation id": 35,
+      "registers per thread": 0,
+      "shared memory": 0,
+      "blocks per SM": 0.000000,
+      "warps per SM": 0.000000,
+      "grid": [0, 0, 0],
+      "block": [0, 0, 0],
+      "theoretical achieved occupancy %": 0.000
+    }
+  },
+  
+  {
+    "name": "launch", "id": 35, "pid": 7, "tid": 1,
+    "ts": 1713426827190315,
+    "ph": "f", "cat": "async", "bp": "e"
+  },
+  
+  {
+    "name": "cinn_instruction_run[50.710 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191234, "dur": 50.710,
+    "ph": "X", "cat": "Operator",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "3570.561 us",
+      "end_time": "3621.271 us",
+      "input_shapes": {},
+      "input_dtypes": {},
+      "callstack": ""
+    }
+  },
+  
+  {
+    "name": "cudaSetDevice_v3020[0.950 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191234, "dur": 0.950,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 40,
+      "start_time": "3570.617 us",
+      "end_time": "3571.567 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 40, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191234,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "Runtime API 307[12.020 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191272, "dur": 12.020,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 42,
+      "start_time": "3609.237 us",
+      "end_time": "3621.257 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 42, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191278,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "fn_matmul_1_7_kernel[4.480 us]", "pid": 7, "tid": 1,
+    "ts": 1713426827191300, "dur": 4.480,
+    "ph": "X", "cat": "Kernel",
+    "cname": "cq_build_failed",
+    "args": {
+      "start_time": "3637.298 us",
+      "end_time": "3641.778 us",
+      "device": 7, "context": 0,
+      "stream": 1, "correlation id": 42,
+      "registers per thread": 0,
+      "shared memory": 0,
+      "blocks per SM": 0.000000,
+      "warps per SM": 0.000000,
+      "grid": [0, 0, 0],
+      "block": [0, 0, 0],
+      "theoretical achieved occupancy %": 0.000
+    }
+  },
+  
+  {
+    "name": "launch", "id": 42, "pid": 7, "tid": 1,
+    "ts": 1713426827191303,
+    "ph": "f", "cat": "async", "bp": "e"
+  },
+  
+  {
+    "name": "cinn_instruction_run[49.220 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191286, "dur": 49.220,
+    "ph": "X", "cat": "Operator",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "3622.731 us",
+      "end_time": "3671.951 us",
+      "input_shapes": {},
+      "input_dtypes": {},
+      "callstack": ""
+    }
+  },
+  
+  {
+    "name": "Runtime API 307[8.770 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191314, "dur": 8.770,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 44,
+      "start_time": "3651.427 us",
+      "end_time": "3660.197 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 44, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191319,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "fn_broadcast_to_2_elementwise_add_3_fill_constant_0_elementwise_mul_4_fill_constant_6_elementwise_add_5_max_7_8_kernel[4.160 us]", "pid": 7, "tid": 1,
+    "ts": 1713426827191337, "dur": 4.160,
+    "ph": "X", "cat": "Kernel",
+    "cname": "cq_build_failed",
+    "args": {
+      "start_time": "3674.258 us",
+      "end_time": "3678.418 us",
+      "device": 7, "context": 0,
+      "stream": 1, "correlation id": 44,
+      "registers per thread": 0,
+      "shared memory": 0,
+      "blocks per SM": 0.000000,
+      "warps per SM": 0.000000,
+      "grid": [0, 0, 0],
+      "block": [0, 0, 0],
+      "theoretical achieved occupancy %": 0.000
+    }
+  },
+  
+  {
+    "name": "launch", "id": 44, "pid": 7, "tid": 1,
+    "ts": 1713426827191339,
+    "ph": "f", "cat": "async", "bp": "e"
+  },
+  
+  {
+    "name": "infer_shape[4.640 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188110, "dur": 4.640,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "447.140 us",
+      "end_time": "451.780 us"
+    }
+  },
+  
+  {
+    "name": "cudaSetDevice_v3020[1.030 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188110, "dur": 1.030,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 14,
+      "start_time": "447.256 us",
+      "end_time": "448.286 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 14, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188111,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "compute[44.050 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188115, "dur": 44.050,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "451.980 us",
+      "end_time": "496.030 us"
+    }
+  },
+  
+  {
+    "name": "infer_shape[3.420 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188166, "dur": 3.420,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "503.000 us",
+      "end_time": "506.420 us"
+    }
+  },
+  
+  {
+    "name": "cudaSetDevice_v3020[1.040 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188166, "dur": 1.040,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 16,
+      "start_time": "503.216 us",
+      "end_time": "504.256 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 16, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188167,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "compute[30.360 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827188170, "dur": 30.360,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "506.570 us",
+      "end_time": "536.930 us"
+    }
+  },
+  
+  {
+    "name": "infer_shape[4.180 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189138, "dur": 4.180,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1474.720 us",
+      "end_time": "1478.900 us"
+    }
+  },
+  
+  {
+    "name": "cudaSetDevice_v3020[0.890 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189138, "dur": 0.890,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 23,
+      "start_time": "1475.366 us",
+      "end_time": "1476.256 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 23, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189139,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "compute[42.570 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189142, "dur": 42.570,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1479.160 us",
+      "end_time": "1521.730 us"
+    }
+  },
+  
+  {
+    "name": "infer_shape[3.960 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189192, "dur": 3.960,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1528.550 us",
+      "end_time": "1532.510 us"
+    }
+  },
+  
+  {
+    "name": "compute[28.980 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827189196, "dur": 28.980,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1532.680 us",
+      "end_time": "1561.660 us"
+    }
+  },
+  
+  {
+    "name": "infer_shape[3.830 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190204, "dur": 3.830,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2540.511 us",
+      "end_time": "2544.341 us"
+    }
+  },
+  
+  {
+    "name": "cudaSetDevice_v3020[0.870 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190204, "dur": 0.870,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 32,
+      "start_time": "2541.157 us",
+      "end_time": "2542.027 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 32, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190205,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "compute[45.400 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190208, "dur": 45.400,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2544.521 us",
+      "end_time": "2589.921 us"
+    }
+  },
+  
+  {
+    "name": "infer_shape[3.340 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190259, "dur": 3.340,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2596.431 us",
+      "end_time": "2599.771 us"
+    }
+  },
+  
+  {
+    "name": "cudaSetDevice_v3020[1.010 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190260, "dur": 1.010,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 34,
+      "start_time": "2596.677 us",
+      "end_time": "2597.687 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 34, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190260,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "compute[32.090 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827190263, "dur": 32.090,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2599.911 us",
+      "end_time": "2632.001 us"
+    }
+  },
+  
+  {
+    "name": "infer_shape[3.720 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191236, "dur": 3.720,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "3573.431 us",
+      "end_time": "3577.151 us"
+    }
+  },
+  
+  {
+    "name": "cudaSetDevice_v3020[0.890 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191237, "dur": 0.890,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 41,
+      "start_time": "3574.097 us",
+      "end_time": "3574.987 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 41, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191238,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "compute[42.950 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191240, "dur": 42.950,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "3577.341 us",
+      "end_time": "3620.291 us"
+    }
+  },
+  
+  {
+    "name": "infer_shape[3.270 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191290, "dur": 3.270,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "3626.661 us",
+      "end_time": "3629.931 us"
+    }
+  },
+  
+  {
+    "name": "cudaSetDevice_v3020[0.980 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191290, "dur": 0.980,
+    "ph": "X", "cat": "CudaRuntime",
+    "cname": "thread_state_running",
+    "args": {
+      "correlation id": 43,
+      "start_time": "3626.887 us",
+      "end_time": "3627.867 us"
+    }
+  },
+  
+  {
+    "name": "launch", "id": 43, "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191290,
+    "ph": "s", "cat": "async"
+  },
+  
+  {
+    "name": "compute[28.850 us]", "pid": 58374, "tid": "58374(C++)",
+    "ts": 1713426827191293, "dur": 28.850,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "3630.051 us",
+      "end_time": "3658.901 us"
+    }
+  },
+  
+  {
+    "name": "process_name", "pid": 58374, "tid": "58374(Python)",
+    "ph": "M",
+    "args": {
+      "name": "Process 58374 (CPU)"
+    }
+  },
+  {
+    "name": "process_name", "pid": 58374, "tid": "58374(C++)",
+    "ph": "M",
+    "args": {
+      "name": "Process 58374 (CPU)"
+    }
+  },
+   {
+    "name": "thread_name", "pid": 58374, "tid": "58374(Python)",
+    "ph": "M",
+    "args": {
+      "name": "thread 58374:MainThread(Python)"
+    }
+  },
+  {
+    "name": "thread_name", "pid": 58374, "tid": "58374(C++)",
+    "ph": "M",
+    "args": {
+      "name": "thread 58374:MainThread(C++)"
+    }
+  },
+  {
+    "name": "process_sort_index", "pid": 58374, "tid": 58374,
+    "ph": "M",
+    "args": {
+      "sort_index": 58374
+    }
+  },
+  {
+    "name": "thread_sort_index", "pid": 58374, "tid": "58374(Python)",
+    "ph": "M",
+    "args": {
+      "sort_index": 116748
+    }
+  },
+  {
+    "name": "thread_sort_index", "pid": 58374, "tid": "58374(C++)",
+    "ph": "M",
+    "args": {
+      "sort_index": 116749
+    }
+  },
+  
+  {
+    "name": "process_name", "pid": 7, "tid": 1,
+    "ph": "M",
+    "args": {
+      "name": "Device 7 (GPU)"
+    }
+  },
+   {
+    "name": "thread_name", "pid": 7, "tid": 1,
+    "ph": "M",
+    "args": {
+      "name": "stream 1"
+    }
+  },
+  {
+    "name": "process_sort_index", "pid": 7, "tid": 1,
+    "ph": "M",
+    "args": {
+      "sort_index": 268435463
+    }
+  },
+  {
+    "name": "thread_sort_index", "pid": 7, "tid": 1,
+    "ph": "M",
+    "args": {
+      "sort_index": 1
+    }
+  },
+  
+  {
+    "name": "process_name", "pid": 8, "tid": 1,
+    "ph": "M",
+    "args": {
+      "name": "Device 8 (GPU)"
+    }
+  },
+   {
+    "name": "thread_name", "pid": 8, "tid": 1,
+    "ph": "M",
+    "args": {
+      "name": "stream 1"
+    }
+  },
+  {
+    "name": "process_sort_index", "pid": 8, "tid": 1,
+    "ph": "M",
+    "args": {
+      "sort_index": 268435464
+    }
+  },
+  {
+    "name": "thread_sort_index", "pid": 8, "tid": 1,
+    "ph": "M",
+    "args": {
+      "sort_index": 1
+    }
+  },
+  
+  {}
+  ],
+  
+  "ExtraInfo": {
+     "58374": "MainThread",
+   
+     "Process Cpu Utilization": "0.000000",
+   
+     "System Cpu Utilization": "0.027397"
+   
+  }
+  }
+  
