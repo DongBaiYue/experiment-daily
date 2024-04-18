@@ -1,0 +1,772 @@
+
+  {
+    "displayTimeUnit": "ms",
+    "schemaVersion": "1.0.2",
+    "span_indx": "0",
+    "deviceProperties": [
+    
+    {
+      "id": 0, "name": "Z100L", "totalGlobalMem": 34342961152,
+      "computeMajor": 9, "computeMinor": 0,
+      "smCount": 60
+    },
+  
+    {
+      "id": 1, "name": "Z100L", "totalGlobalMem": 34342961152,
+      "computeMajor": 9, "computeMinor": 0,
+      "smCount": 60
+    },
+  
+    {
+      "id": 2, "name": "Z100L", "totalGlobalMem": 34342961152,
+      "computeMajor": 9, "computeMinor": 0,
+      "smCount": 60
+    },
+  
+    {
+      "id": 3, "name": "Z100L", "totalGlobalMem": 34342961152,
+      "computeMajor": 9, "computeMinor": 0,
+      "smCount": 60
+    },
+  
+    {
+      "id": 4, "name": "Z100L", "totalGlobalMem": 34342961152,
+      "computeMajor": 9, "computeMinor": 0,
+      "smCount": 60
+    },
+  
+    {
+      "id": 5, "name": "Z100L", "totalGlobalMem": 34342961152,
+      "computeMajor": 9, "computeMinor": 0,
+      "smCount": 60
+    },
+  
+    {
+      "id": 6, "name": "Z100L", "totalGlobalMem": 34342961152,
+      "computeMajor": 9, "computeMinor": 0,
+      "smCount": 60
+    },
+  
+      {
+        "id": 7, "name": "Z100L", "totalGlobalMem": 34342961152,
+        "computeMajor": 9, "computeMinor": 0,
+        "smCount": 60
+      }],
+    
+    "traceEvents": [
+  
+  {
+    "name": "ProfileStep#3[975.669 us]", "pid": 62751, "tid": "62751(Python)",
+    "ts": 1713420994037821, "dur": 975.669,
+    "ph": "X", "cat": "ProfileStep",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "0.000 us",
+      "end_time": "975.669 us"
+    }
+  },
+  
+  {
+    "name": "ProfileStep#4[959.029 us]", "pid": 62751, "tid": "62751(Python)",
+    "ts": 1713420994038822, "dur": 959.029,
+    "ph": "X", "cat": "ProfileStep",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1000.349 us",
+      "end_time": "1959.378 us"
+    }
+  },
+  
+  {
+    "name": "ProfileStep#5[942.669 us]", "pid": 62751, "tid": "62751(Python)",
+    "ts": 1713420994039801, "dur": 942.669,
+    "ph": "X", "cat": "ProfileStep",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1979.518 us",
+      "end_time": "2922.187 us"
+    }
+  },
+  
+  {
+    "name": "ProfileStep#6[971.030 us]", "pid": 62751, "tid": "62751(Python)",
+    "ts": 1713420994040764, "dur": 971.030,
+    "ph": "X", "cat": "ProfileStep",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2942.227 us",
+      "end_time": "3913.257 us"
+    }
+  },
+  
+  {
+    "name": "Net[540.239 us]", "pid": 62751, "tid": "62751(Python)",
+    "ts": 1713420994037836, "dur": 540.239,
+    "ph": "X", "cat": "Forward",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "14.370 us",
+      "end_time": "554.609 us"
+    }
+  },
+  
+  {
+    "name": "Net[530.519 us]", "pid": 62751, "tid": "62751(Python)",
+    "ts": 1713420994038835, "dur": 530.519,
+    "ph": "X", "cat": "Forward",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1013.369 us",
+      "end_time": "1543.888 us"
+    }
+  },
+  
+  {
+    "name": "Net[507.590 us]", "pid": 62751, "tid": "62751(Python)",
+    "ts": 1713420994039814, "dur": 507.590,
+    "ph": "X", "cat": "Forward",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1992.668 us",
+      "end_time": "2500.258 us"
+    }
+  },
+  
+  {
+    "name": "Net[494.330 us]", "pid": 62751, "tid": "62751(Python)",
+    "ts": 1713420994040777, "dur": 494.330,
+    "ph": "X", "cat": "Forward",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2955.117 us",
+      "end_time": "3449.447 us"
+    }
+  },
+  
+  {
+    "name": "get_interpretercore_cache[4.430 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994038205, "dur": 4.430,
+    "ph": "X", "cat": "UserDefined",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "383.189 us",
+      "end_time": "387.619 us"
+    }
+  },
+  
+  {
+    "name": "interpreter_core_run[126.210 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994038210, "dur": 126.210,
+    "ph": "X", "cat": "UserDefined",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "388.029 us",
+      "end_time": "514.239 us"
+    }
+  },
+  
+  {
+    "name": "fetch_and_gc[3.630 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994038336, "dur": 3.630,
+    "ph": "X", "cat": "UserDefined",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "514.459 us",
+      "end_time": "518.089 us"
+    }
+  },
+  
+  {
+    "name": "get_interpretercore_cache[4.300 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994039197, "dur": 4.300,
+    "ph": "X", "cat": "UserDefined",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1375.389 us",
+      "end_time": "1379.689 us"
+    }
+  },
+  
+  {
+    "name": "interpreter_core_run[123.070 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994039202, "dur": 123.070,
+    "ph": "X", "cat": "UserDefined",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1380.049 us",
+      "end_time": "1503.119 us"
+    }
+  },
+  
+  {
+    "name": "fetch_and_gc[3.220 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994039325, "dur": 3.220,
+    "ph": "X", "cat": "UserDefined",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1503.389 us",
+      "end_time": "1506.609 us"
+    }
+  },
+  
+  {
+    "name": "get_interpretercore_cache[4.130 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994040151, "dur": 4.130,
+    "ph": "X", "cat": "UserDefined",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2329.288 us",
+      "end_time": "2333.418 us"
+    }
+  },
+  
+  {
+    "name": "interpreter_core_run[125.280 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994040155, "dur": 125.280,
+    "ph": "X", "cat": "UserDefined",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2333.798 us",
+      "end_time": "2459.078 us"
+    }
+  },
+  
+  {
+    "name": "fetch_and_gc[3.470 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994040281, "dur": 3.470,
+    "ph": "X", "cat": "UserDefined",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2459.288 us",
+      "end_time": "2462.758 us"
+    }
+  },
+  
+  {
+    "name": "get_interpretercore_cache[4.400 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994041104, "dur": 4.400,
+    "ph": "X", "cat": "UserDefined",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "3282.047 us",
+      "end_time": "3286.447 us"
+    }
+  },
+  
+  {
+    "name": "interpreter_core_run[122.010 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994041108, "dur": 122.010,
+    "ph": "X", "cat": "UserDefined",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "3286.827 us",
+      "end_time": "3408.837 us"
+    }
+  },
+  
+  {
+    "name": "fetch_and_gc[3.200 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994041231, "dur": 3.200,
+    "ph": "X", "cat": "UserDefined",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "3409.057 us",
+      "end_time": "3412.257 us"
+    }
+  },
+  
+  {
+    "name": "cinn_launch[121.050 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994038213, "dur": 121.050,
+    "ph": "X", "cat": "Operator",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "391.659 us",
+      "end_time": "512.709 us",
+      "input_shapes": {},
+      "input_dtypes": {},
+      "callstack": ""
+    }
+  },
+  
+  {
+    "name": "cinn_launch[117.590 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994039205, "dur": 117.590,
+    "ph": "X", "cat": "Operator",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1383.739 us",
+      "end_time": "1501.329 us",
+      "input_shapes": {},
+      "input_dtypes": {},
+      "callstack": ""
+    }
+  },
+  
+  {
+    "name": "cinn_launch[120.170 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994040159, "dur": 120.170,
+    "ph": "X", "cat": "Operator",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2337.248 us",
+      "end_time": "2457.418 us",
+      "input_shapes": {},
+      "input_dtypes": {},
+      "callstack": ""
+    }
+  },
+  
+  {
+    "name": "cinn_launch[117.080 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994041112, "dur": 117.080,
+    "ph": "X", "cat": "Operator",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "3290.127 us",
+      "end_time": "3407.207 us",
+      "input_shapes": {},
+      "input_dtypes": {},
+      "callstack": ""
+    }
+  },
+  
+  {
+    "name": "infer_shape[2.070 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994038215, "dur": 2.070,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "393.399 us",
+      "end_time": "395.469 us"
+    }
+  },
+  
+  {
+    "name": "compute[116.160 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994038217, "dur": 116.160,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "395.699 us",
+      "end_time": "511.859 us"
+    }
+  },
+  
+  {
+    "name": "infer_shape[1.810 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994039207, "dur": 1.810,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1385.319 us",
+      "end_time": "1387.129 us"
+    }
+  },
+  
+  {
+    "name": "compute[113.200 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994039209, "dur": 113.200,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1387.339 us",
+      "end_time": "1500.539 us"
+    }
+  },
+  
+  {
+    "name": "infer_shape[1.910 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994040160, "dur": 1.910,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2338.788 us",
+      "end_time": "2340.698 us"
+    }
+  },
+  
+  {
+    "name": "compute[115.530 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994040162, "dur": 115.530,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2340.928 us",
+      "end_time": "2456.458 us"
+    }
+  },
+  
+  {
+    "name": "infer_shape[1.680 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994041113, "dur": 1.680,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "3291.597 us",
+      "end_time": "3293.277 us"
+    }
+  },
+  
+  {
+    "name": "compute[112.830 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994041115, "dur": 112.830,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "3293.487 us",
+      "end_time": "3406.317 us"
+    }
+  },
+  
+  {
+    "name": "cinn_instruction_run[44.470 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994038245, "dur": 44.470,
+    "ph": "X", "cat": "Operator",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "423.109 us",
+      "end_time": "467.579 us",
+      "input_shapes": {},
+      "input_dtypes": {},
+      "callstack": ""
+    }
+  },
+  
+  {
+    "name": "cinn_instruction_run[40.330 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994038290, "dur": 40.330,
+    "ph": "X", "cat": "Operator",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "468.959 us",
+      "end_time": "509.289 us",
+      "input_shapes": {},
+      "input_dtypes": {},
+      "callstack": ""
+    }
+  },
+  
+  {
+    "name": "cinn_instruction_run[44.100 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994039235, "dur": 44.100,
+    "ph": "X", "cat": "Operator",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1413.319 us",
+      "end_time": "1457.419 us",
+      "input_shapes": {},
+      "input_dtypes": {},
+      "callstack": ""
+    }
+  },
+  
+  {
+    "name": "cinn_instruction_run[38.760 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994039280, "dur": 38.760,
+    "ph": "X", "cat": "Operator",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1458.749 us",
+      "end_time": "1497.509 us",
+      "input_shapes": {},
+      "input_dtypes": {},
+      "callstack": ""
+    }
+  },
+  
+  {
+    "name": "cinn_instruction_run[44.940 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994040188, "dur": 44.940,
+    "ph": "X", "cat": "Operator",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2366.758 us",
+      "end_time": "2411.698 us",
+      "input_shapes": {},
+      "input_dtypes": {},
+      "callstack": ""
+    }
+  },
+  
+  {
+    "name": "cinn_instruction_run[40.760 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994040235, "dur": 40.760,
+    "ph": "X", "cat": "Operator",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2413.098 us",
+      "end_time": "2453.858 us",
+      "input_shapes": {},
+      "input_dtypes": {},
+      "callstack": ""
+    }
+  },
+  
+  {
+    "name": "cinn_instruction_run[43.800 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994041141, "dur": 43.800,
+    "ph": "X", "cat": "Operator",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "3319.957 us",
+      "end_time": "3363.757 us",
+      "input_shapes": {},
+      "input_dtypes": {},
+      "callstack": ""
+    }
+  },
+  
+  {
+    "name": "cinn_instruction_run[38.340 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994041187, "dur": 38.340,
+    "ph": "X", "cat": "Operator",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "3365.137 us",
+      "end_time": "3403.477 us",
+      "input_shapes": {},
+      "input_dtypes": {},
+      "callstack": ""
+    }
+  },
+  
+  {
+    "name": "infer_shape[3.770 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994038245, "dur": 3.770,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "423.689 us",
+      "end_time": "427.459 us"
+    }
+  },
+  
+  {
+    "name": "compute[38.900 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994038249, "dur": 38.900,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "427.719 us",
+      "end_time": "466.619 us"
+    }
+  },
+  
+  {
+    "name": "infer_shape[2.940 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994038292, "dur": 2.940,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "470.059 us",
+      "end_time": "472.999 us"
+    }
+  },
+  
+  {
+    "name": "compute[21.770 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994038295, "dur": 21.770,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "473.169 us",
+      "end_time": "494.939 us"
+    }
+  },
+  
+  {
+    "name": "infer_shape[3.910 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994039235, "dur": 3.910,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1413.879 us",
+      "end_time": "1417.789 us"
+    }
+  },
+  
+  {
+    "name": "compute[38.220 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994039240, "dur": 38.220,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1418.159 us",
+      "end_time": "1456.379 us"
+    }
+  },
+  
+  {
+    "name": "infer_shape[2.500 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994039281, "dur": 2.500,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1459.809 us",
+      "end_time": "1462.309 us"
+    }
+  },
+  
+  {
+    "name": "compute[22.220 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994039284, "dur": 22.220,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "1462.489 us",
+      "end_time": "1484.709 us"
+    }
+  },
+  
+  {
+    "name": "infer_shape[4.280 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994040189, "dur": 4.280,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2367.368 us",
+      "end_time": "2371.648 us"
+    }
+  },
+  
+  {
+    "name": "compute[38.840 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994040193, "dur": 38.840,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2371.878 us",
+      "end_time": "2410.718 us"
+    }
+  },
+  
+  {
+    "name": "infer_shape[2.910 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994040236, "dur": 2.910,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2414.298 us",
+      "end_time": "2417.208 us"
+    }
+  },
+  
+  {
+    "name": "compute[24.200 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994040239, "dur": 24.200,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "2417.408 us",
+      "end_time": "2441.608 us"
+    }
+  },
+  
+  {
+    "name": "infer_shape[4.230 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994041142, "dur": 4.230,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "3320.537 us",
+      "end_time": "3324.767 us"
+    }
+  },
+  
+  {
+    "name": "compute[37.720 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994041146, "dur": 37.720,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "3324.967 us",
+      "end_time": "3362.687 us"
+    }
+  },
+  
+  {
+    "name": "infer_shape[2.840 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994041188, "dur": 2.840,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "3366.357 us",
+      "end_time": "3369.197 us"
+    }
+  },
+  
+  {
+    "name": "compute[21.030 us]", "pid": 62751, "tid": "62751(C++)",
+    "ts": 1713420994041191, "dur": 21.030,
+    "ph": "X", "cat": "OperatorInner",
+    "cname": "thread_state_runnable",
+    "args": {
+      "start_time": "3369.387 us",
+      "end_time": "3390.417 us"
+    }
+  },
+  
+  {
+    "name": "process_name", "pid": 62751, "tid": "62751(Python)",
+    "ph": "M",
+    "args": {
+      "name": "Process 62751 (CPU)"
+    }
+  },
+  {
+    "name": "process_name", "pid": 62751, "tid": "62751(C++)",
+    "ph": "M",
+    "args": {
+      "name": "Process 62751 (CPU)"
+    }
+  },
+   {
+    "name": "thread_name", "pid": 62751, "tid": "62751(Python)",
+    "ph": "M",
+    "args": {
+      "name": "thread 62751:MainThread(Python)"
+    }
+  },
+  {
+    "name": "thread_name", "pid": 62751, "tid": "62751(C++)",
+    "ph": "M",
+    "args": {
+      "name": "thread 62751:MainThread(C++)"
+    }
+  },
+  {
+    "name": "process_sort_index", "pid": 62751, "tid": 62751,
+    "ph": "M",
+    "args": {
+      "sort_index": 62751
+    }
+  },
+  {
+    "name": "thread_sort_index", "pid": 62751, "tid": "62751(Python)",
+    "ph": "M",
+    "args": {
+      "sort_index": 125502
+    }
+  },
+  {
+    "name": "thread_sort_index", "pid": 62751, "tid": "62751(C++)",
+    "ph": "M",
+    "args": {
+      "sort_index": 125503
+    }
+  },
+  
+  {}
+  ],
+  
+  "ExtraInfo": {
+     "62751": "MainThread",
+   
+     "Process Cpu Utilization": "1.000000",
+   
+     "System Cpu Utilization": "0.017544"
+   
+  }
+  }
+  
